@@ -13,8 +13,7 @@ app.get("/", (req, res) => {
   const response = {
     email: "princeadedayo03@gmail.com",
     current_datetime: new Date().toISOString(),
-    github_url: "https://github.com/yourusername/your-repo",
-  };
+    github_url: "https://github.com/dprince-03/hng-stage0-backend",};
   res.json(response);
 });
 
